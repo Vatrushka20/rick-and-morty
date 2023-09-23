@@ -1,0 +1,42 @@
+.characters-card {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #FFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.characters-card:hover {
+  transform: scale(1.1);
+}
+.characters-card .image-container {
+  width: 240px;
+  height: 224px;
+  position: relative;
+}
+.characters-card .image-container__image {
+  border-radius: 4px;
+  object-fit: cover;
+}
+.characters-card__name {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  padding: 12px 16px 0;
+}
+.characters-card__species {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  padding: 0 16px 12px;
+}
+
+/*# sourceMappingURL=CharacterCard.css.map */

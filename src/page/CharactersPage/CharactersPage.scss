@@ -1,0 +1,19 @@
+.characters-page {
+  margin-bottom: 50px;
+
+
+  &__banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    margin-bottom: 16px;
+  }
+
+  .characters-list {
+    margin-top: 61px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 24px;
+  }
+}
